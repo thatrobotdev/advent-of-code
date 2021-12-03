@@ -1,2 +1,6 @@
+Part 1:
 Multiplied final horizontal position by final depth: 150
 Multiplied final horizontal position by final depth: 1855814
+Part 2:
+Multiplied final horizontal position by final depth: 900
+Multiplied final horizontal position by final depth: 1845455714
