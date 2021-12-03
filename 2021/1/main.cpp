@@ -19,7 +19,7 @@ void processInputPart2(const string &filename, int expectedNumIncrease);
 int main() {
     // Redirect cout to output file (https://stackoverflow.com/a/10151286)
     ofstream out("out.txt");
-    cout.rdbuf(out.rdbuf()); //redirect std::cout to out.txt!
+    cout.rdbuf(out.rdbuf());
 
     // Process Part 1
     cout << "Part 1:" << "\n";
@@ -138,7 +138,7 @@ int countThreeMeasurementSlidingWindowsIncrease(const string &filename) {
 // Find the sum of a queue
 int sumOfQueue(queue<int> q) {
     int sum = 0;
-    
+
     // While the queue is not empty
     while (!q.empty()) {
         // Add the front element of the queue to sum and remove it from the queue
