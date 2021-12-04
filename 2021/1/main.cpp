@@ -18,7 +18,7 @@ void processInputPart2(const string &filename, int expectedNumIncrease);
 
 int main() {
     // Redirect cout to output file (https://stackoverflow.com/a/10151286)
-    ofstream out("out.txt");
+    ofstream out("output.txt");
     cout.rdbuf(out.rdbuf());
 
     // Process Part 1
